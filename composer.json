@@ -1,0 +1,47 @@
+{
+  "name": "treehouselabs/serialization",
+  "type": "library",
+  "keywords": ["serialization", "serializer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark van Duijker",
+      "email": "mark@treehouse.nl",
+      "role": "Developer"
+    },
+    {
+      "name": "Jeroen Fiege",
+      "email": "jeroen@treehouse.nl",
+      "role": "Developer"
+    },
+    {
+      "name": "Marco Janssen",
+      "email": "marco@treehouse.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "TreeHouse\\Serialization\\": "src/TreeHouse/Serialization/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TreeHouse\\Serialization\\Tests\\": "tests/TreeHouse/Serialization/Tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
