@@ -2,10 +2,10 @@
 
 namespace TreeHouse\Serialization\Tests;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use TreeHouse\Serialization\SerializableArray;
 
-class SerializableArrayTest extends PHPUnit_Framework_TestCase
+class SerializableArrayTest extends TestCase
 {
     /**
      * @test

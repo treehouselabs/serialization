@@ -2,14 +2,14 @@
 
 namespace TreeHouse\Serialization\Test;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 use TreeHouse\Serialization\SerializableInterface;
 
 /**
  * @codeCoverageIgnore
  */
-abstract class SerializationTestCase extends PHPUnit_Framework_TestCase
+abstract class SerializationTestCase extends TestCase
 {
     /**
      * @var object
